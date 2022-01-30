@@ -21,7 +21,13 @@ function Header() {
         <HeaderItem title="Search" Icon={SearchIcon} />
         <HeaderItem title="Account" Icon={UserIcon} />
       </div>
-      <Image className="object-contain" src={Logo} width={200} height={100} />
+      <Image
+        className="object-contain"
+        src={Logo}
+        width={200}
+        height={100}
+        alt="Logo"
+      />
     </header>
   );
 }

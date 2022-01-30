@@ -1,6 +1,5 @@
 import { ThumbUpIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
-import Results from './Results';
 import { forwardRef } from 'react';
 
 const Thumbnail = forwardRef(({ result }, ref) => {
@@ -19,6 +18,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         }
         width={1920}
         height={1080}
+        alt="Poster Image"
       />
       <div className="p-2">
         <p className="truncate max-w-md">{result.overview}</p>
